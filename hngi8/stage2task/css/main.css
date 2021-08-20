@@ -1,0 +1,242 @@
+/* Mobile first approach */
+/* @media only screen and (max-width: 768px) {
+*/
+html {
+	scroll-behavior: smooth;
+}
+
+/* Navbar  */
+
+.navbar-toggler-icon {
+	background-image: url(../img/icons/ic-nav.svg) !important;
+}
+.navbar img {
+	height: 36px;
+}
+.navbar {
+	padding: 1.35rem 1rem;
+}
+#intro {
+	padding-top: 160px;
+}
+
+.particle-container {
+	position: relative;
+}
+
+.particle-canvas {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+/* navbar hide and show / mobile side nav */
+.hide {
+  display: none;
+}
+@media (max-width: 991px) {
+  .show {
+    display: none;
+  }
+  .hide {
+    display: block;
+  }
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000000000;
+  top: 0;
+  right: 0;
+  background-color: rgba(229, 229, 229, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 18px;
+  /* color: #fff; */
+  transition: 0.3s;
+  padding-left: 45px;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+.sideBarSide {
+  width: 90%;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenav .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.bottom-btn {
+  position: absolute;
+  bottom: 0;
+  width: 100% !important;
+}
+
+
+/* Sizing
+*/
+.section-padding {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.section-padding-top {
+	padding-top: 160px;
+}
+
+.section-padding-bottom {
+	padding-bottom: 160px;
+}
+
+.md-padding {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+/* DUMO CTA  */
+.dumo-action {
+	padding-top: 110px;
+	padding-bottom: 110px;
+	padding-left: 3%;
+}
+
+.banner-top {
+	padding-top: 180px;
+}
+.banner-top1 {
+	padding-top: 180px;
+	padding-bottom: 260px;
+}
+
+/* clients logos */
+
+.clients img {
+	filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	max-height: 40px;
+	max-width: 70%;
+	transition: 0.3s all;
+	margin-top: 32px;
+}
+.clients img:hover {
+	filter: none;
+	-webkit-filter: none;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.social a img {
+	height: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***
+***
+***
+*** */
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+	
+	/* Navbar  */
+	.navbar img {
+		height: 42px;
+	}
+	#intro {
+		padding-top: 185px;
+	}
+
+	/* Sizing
+	*/
+	.section-padding {
+		padding-top: 260px;
+		padding-bottom: 260px;
+	}
+	.section-padding-top {
+		padding-top: 260px;
+	}
+	.section-padding-bottom {
+		padding-bottom: 260px;
+	}
+	.md-padding {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	/* DUMO CTA  */
+	.dumo-action {
+		padding-top: 170px;
+		padding-bottom: 170px;
+		padding-left: 5%;
+	}
+
+	.social {
+		text-align: right !important;
+	}
+	
+	
+	/* clients logos */
+
+	.clients img {
+		filter: grayscale(1);
+		-webkit-filter: grayscale(1);
+		max-height: 40px;
+		max-width: 60%;
+		transition: 0.3s all;
+		margin-top: 50px;
+	}
+}
+/*** 
+*End desktop CSS  
+*/
+
+/* services */
+.line-through {
+	text-decoration: line-through;
+}
+.services-hero-text {
+	padding-top: 128.76px;
+	padding-bottom: 260px;
+}
+.underline {
+	text-decoration: underline;
+}
+.underline:hover {
+	text-decoration: underline;
+}
