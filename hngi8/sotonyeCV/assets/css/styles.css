@@ -637,6 +637,19 @@ img {
     color: var(--first-color-lighter);
 }
 
+.footer__hng{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	background-color: var(--first-color-lighter);
+}
+
+.footer_hng{
+	width: 136px;
+	padding:2%
+	
+}
+
 .footer__title,
 .footer__subtitle,
 .footer__link{
